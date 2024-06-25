@@ -3,7 +3,7 @@ package com.example.fizzbuzz
 fun main()  {
     var i = 1
 
-    do {
+    while (i <= 300) {
         var result = emptyArray<String>()
         if (i % 3 == 0){
             result += "Fizz"
@@ -44,5 +44,5 @@ fun main()  {
         }
         print(output + "\n") // result is now an array!
         i++
-    } while (i <= 300)
+    }
 }
